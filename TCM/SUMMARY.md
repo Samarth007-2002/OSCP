@@ -9,3 +9,5 @@
     * [AV eNU](win-priv/initial-enumeration/av-enu.md)
   * [Automated Tools](win-priv/automated-tools/README.md)
     * [Overview](win-priv/automated-tools/overview.md)
+    * [Tools](win-priv/automated-tools/tools.md)
+  * [Kernel Exploits](win-priv/kernel-exploits.md)

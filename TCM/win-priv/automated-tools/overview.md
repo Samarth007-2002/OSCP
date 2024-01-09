@@ -2,6 +2,8 @@
 
 <figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
+First win-peas then power-up then other
+
 \---------------------------------------------------------------------------------------------------------------------
 
 WinPEAS - [https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite/tree/master/winPEAS](https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite/tree/master/winPEAS)
