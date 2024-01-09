@@ -5,3 +5,5 @@
   * [Initial Enumeration](win-priv/initial-enumeration/README.md)
     * [System Enumeration](win-priv/initial-enumeration/system-enumeration.md)
     * [Network enumeration](win-priv/initial-enumeration/network-enumeration.md)
+    * [Password Hunting](win-priv/initial-enumeration/password-hunting.md)
+    * [AV eNU](win-priv/initial-enumeration/av-enu.md)

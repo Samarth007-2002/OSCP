@@ -18,6 +18,10 @@ Windows Management Instrumentation - command | `qfe` quick fix engineering&#x20;
 wmic qfe 
 ```
 
+```
+wmic qfe get Caption,Description,HotFixID,InstalledOn
+```
+
 kbid- Knowledge Base ID
 
 &#x20;List local disk
