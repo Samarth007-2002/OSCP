@@ -7,3 +7,5 @@
     * [Network enumeration](win-priv/initial-enumeration/network-enumeration.md)
     * [Password Hunting](win-priv/initial-enumeration/password-hunting.md)
     * [AV eNU](win-priv/initial-enumeration/av-enu.md)
+  * [Automated Tools](win-priv/automated-tools/README.md)
+    * [Overview](win-priv/automated-tools/overview.md)
