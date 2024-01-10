@@ -11,13 +11,15 @@ sysinfo
 ```
 
 ```
-shell
+shellShell Commands
 ```
-
-Shell Commands
 
 ```
 dir                         #ls alternative for windows
+```
+
+```
+dir /R
 ```
 
 ```
@@ -44,13 +46,13 @@ OS Version:                6.1.7600 N/A Build 7600
 System Type:               X86-based PC
 ```
 
-If u have a meterpreter connection to window
+## If u have a meterpreter connection to window
 
 ```
 load powershell
 ```
 
-if a normal shell then&#x20;
+## if a normal shell then&#x20;
 
 ```
 powershell -p bypass

@@ -13,3 +13,5 @@
   * [Kernel Exploits](win-priv/kernel-exploits.md)
   * [Escalation Path:Passwords and Port Forwarding](win-priv/escalation-path-passwords-and-port-forwarding.md)
   * [Token Impersonation](win-priv/token-impersonation.md)
+  * [getsystem](win-priv/getsystem.md)
+  * [Es-Path:Run-As](win-priv/es-path-run-as.md)
