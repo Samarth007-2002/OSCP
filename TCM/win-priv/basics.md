@@ -1,5 +1,9 @@
 # Basics
 
+```
+rdesktop 10.10.173.32
+```
+
 meterpreter commands
 
 ```

@@ -15,3 +15,5 @@
   * [Token Impersonation](win-priv/token-impersonation.md)
   * [getsystem](win-priv/getsystem.md)
   * [Es-Path:Run-As](win-priv/es-path-run-as.md)
+  * [Auto-runs](win-priv/auto-runs.md)
+  * [AllWaysInstalled Elevated](win-priv/allwaysinstalled-elevated.md)
