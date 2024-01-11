@@ -23,3 +23,4 @@
   * [DLL hijacking](win-priv/dll-hijacking.md)
   * [Escalation Via Binary Paths](win-priv/escalation-via-binary-paths.md)
   * [Unquoted Service Paths](win-priv/unquoted-service-paths.md)
+  * [Es-path Reg](win-priv/es-path-reg.md)
