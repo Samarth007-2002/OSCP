@@ -8,6 +8,8 @@ First win-peas then power-up then other
 
 WinPEAS - [https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite/tree/master/winPEAS](https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite/tree/master/winPEAS)
 
+[https://github.com/carlospolop/PEASS-ng/releases/tag/20240107-6fec90a8](https://github.com/carlospolop/PEASS-ng/releases/tag/20240107-6fec90a8)
+
 Windows PrivEsc Checklist - [https://book.hacktricks.xyz/windows/checklist-windows-privilege-escalation](https://book.hacktricks.xyz/windows/checklist-windows-privilege-escalation)
 
 Sherlock - [https://github.com/rasta-mouse/Sherlock](https://github.com/rasta-mouse/Sherlock)
