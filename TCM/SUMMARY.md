@@ -24,3 +24,8 @@
   * [Escalation Via Binary Paths](win-priv/escalation-via-binary-paths.md)
   * [Unquoted Service Paths](win-priv/unquoted-service-paths.md)
   * [Es-path Reg](win-priv/es-path-reg.md)
+* [AD](ad/README.md)
+  * [Initial Attack Vectors](ad/initial-attack-vectors/README.md)
+    * [LLMNR Poisoning(needs an event)](ad/initial-attack-vectors/llmnr-poisoning-needs-an-event.md)
+    * [SMB Relay Attacks(needs an event)](ad/initial-attack-vectors/smb-relay-attacks-needs-an-event.md)
+    * [Gaining Shell Access](ad/initial-attack-vectors/gaining-shell-access.md)
