@@ -29,3 +29,8 @@
     * [LLMNR Poisoning(needs an event)](ad/initial-attack-vectors/llmnr-poisoning-needs-an-event.md)
     * [SMB Relay Attacks(needs an event)](ad/initial-attack-vectors/smb-relay-attacks-needs-an-event.md)
     * [Gaining Shell Access](ad/initial-attack-vectors/gaining-shell-access.md)
+    * [IPV6 attacks](ad/initial-attack-vectors/ipv6-attacks.md)
+    * [Pass-back Attacks](ad/initial-attack-vectors/pass-back-attacks.md)
+  * [Post Compromise Enumeration](ad/post-compromise-enumeration/README.md)
+    * [ldapdomaindump](ad/post-compromise-enumeration/ldapdomaindump.md)
+    * [Bloodhound](ad/post-compromise-enumeration/bloodhound.md)
