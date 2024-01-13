@@ -12,7 +12,7 @@ nmap --script=smb2-security-mode.nse -p445 <ip>
 
 First Change Responder Configuration( etc/responder/Responder.conf)
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 Now the attack
 

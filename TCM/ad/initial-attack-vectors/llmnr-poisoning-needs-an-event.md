@@ -14,7 +14,7 @@ make sure when u run this ;all the servers it prints are \[ON]
 
 Example of us capturing an hash
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 Copy those hashes into a text file(BEST WAY TO CRACK IS TO USE UR ORIGINAL OS(DOWNLOAD HASHCAT THERE AND USE UR GPU))
 
