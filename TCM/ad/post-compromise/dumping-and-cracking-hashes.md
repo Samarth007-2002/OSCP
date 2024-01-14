@@ -16,7 +16,7 @@ For Cracking hashes we only need NT portion not lm
 
 eamplex-
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>The Secound part of the hash</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>The Secound part of the hash</p></figcaption></figure>
 
 Save that hash into a text file&#x20;
 

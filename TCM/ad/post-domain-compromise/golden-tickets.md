@@ -20,7 +20,7 @@ lsadump::lsa /inject /name:<account name>
 
 Copy the SID of the domain the ntlm hash To generate a ticket
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 then in the mimikatz terminal create a golden ticket
 

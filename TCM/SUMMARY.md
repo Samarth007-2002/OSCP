@@ -45,3 +45,5 @@
     * [Dumping NTDS.dit](ad/post-domain-compromise/dumping-ntds.dit.md)
     * [Golden Tickets](ad/post-domain-compromise/golden-tickets.md)
   * [CASE STUDIES](ad/case-studies.md)
+* [Pivot](pivot.md)
+* [BufferOverFlow](bufferoverflow.md)
