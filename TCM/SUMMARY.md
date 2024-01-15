@@ -47,3 +47,6 @@
   * [CASE STUDIES](ad/case-studies.md)
 * [Pivot](pivot.md)
 * [BufferOverFlow](bufferoverflow.md)
+* [Web](web/README.md)
+  * [SQL Injection](web/sql-injection.md)
+  * [XSS](web/xss.md)
