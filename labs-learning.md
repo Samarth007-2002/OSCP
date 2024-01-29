@@ -24,6 +24,13 @@ jd-gui APP
 
 ```
 john id_rsa --wordlist=/usr/share/wordlists/rockyou.txt
+
+```
+
+## hashcat
+
+```
+.\hashcat -m 500 -a 0 hash.txt rockyou.txt
 ```
 
 ## gzip base64 transfer
