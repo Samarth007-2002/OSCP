@@ -33,6 +33,12 @@ john id_rsa --wordlist=/usr/share/wordlists/rockyou.txt
 .\hashcat -m 500 -a 0 hash.txt rockyou.txt
 ```
 
+## Accessing web app Files In Internal Network
+
+```
+curl 127.0.0.1:<port>/<file name>
+```
+
 ## gzip base64 transfer
 
 We see its a gzip compressed file
