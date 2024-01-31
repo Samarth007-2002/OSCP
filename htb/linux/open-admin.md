@@ -1,5 +1,7 @@
 # 😱 Open Admin
 
+## Enumeration
+
 We’ll start off with a NMAP scan to find the ports that are open on the box
 
 <figure><img src="https://miro.medium.com/v2/resize:fit:700/1*mcibW3Irm_xb02qa3EIZ8Q.png" alt="" height="308" width="700"><figcaption></figcaption></figure>
@@ -40,6 +42,8 @@ Looking at the tab of the browser it exposes the name of the web application as 
 
 And we get 2 exploits from searchsploit which indicates that the web application was vulnerable to Remote Code Execution (RCE) two of them corresponding to our exact version of the web application software one of them is a metasploit module but for the purpose of demonstration i will be using the bash script
 
+## Initial Foot Hold
+
 I decided to use the bash script exploit since metasploit automates everything. I copied to my working directory and decided to take a look
 
 <figure><img src="https://miro.medium.com/v2/resize:fit:700/1*-p2limOpW3us_e_h8YHECw.png" alt="" height="347" width="700"><figcaption></figcaption></figure>
@@ -72,7 +76,9 @@ And we get a shell that doesn’t die. Looking at /var/www there’s a directory
 
 <figure><img src="https://miro.medium.com/v2/resize:fit:700/1*B3cRAhvO4UcIdA1UOJzXVw.png" alt="" height="214" width="700"><figcaption></figcaption></figure>
 
-The user **www-data** doesn’t have access to that direstory maybe we’ll come back to take a look at once we escalate our privileges
+## Priv-Esc 1
+
+The user **www-data** doesn’t have access to that directory maybe we’ll come back to take a look at once we escalate our privileges
 
 Now i started to doing manual enumeration on webapp config files sometimes you might get lucky and find so credentials. In **/opt/ona/www/local/config** we get a database mysql config file.
 
@@ -86,6 +92,10 @@ It seems like there was some kind of password reuse going on
 
 <figure><img src="https://miro.medium.com/v2/resize:fit:700/1*7iPmT-qbErqc-2PkrAP5eQ.png" alt="" height="130" width="700"><figcaption></figcaption></figure>
 
+## Priv-Esc 2
+
+## Internal Network
+
 Now i again tried to access the internal folder and didn’t a permission denied
 
 <figure><img src="https://miro.medium.com/v2/resize:fit:700/1*DTS6hr_CDQX0IaD06MFrjw.png" alt="" height="252" width="700"><figcaption></figcaption></figure>
@@ -93,6 +103,8 @@ Now i again tried to access the internal folder and didn’t a permission denied
 There are three files on that folder main.php seems more interesting
 
 <figure><img src="https://miro.medium.com/v2/resize:fit:700/1*hFIeM8R4OGFX_lJc3nHvxg.png" alt="" height="282" width="700"><figcaption></figcaption></figure>
+
+
 
 The php must be hosted using a webserver and a particular port MUST be used. I decided to look at open ports on localhost to see if there was a port that might be interesting
 
@@ -129,6 +141,8 @@ Now we are in the box as joanna
 We can now submit the user flag and get the points
 
 <figure><img src="https://miro.medium.com/v2/resize:fit:700/1*eq9sPpqUNxliOb5QgzK_-Q.png" alt="" height="113" width="700"><figcaption></figcaption></figure>
+
+## Final Priv-Esc
 
 Now we have to escalate out privileges to root. Doing sudo -L we get the user joanna can run all command nano as root without a password
 
