@@ -39,6 +39,12 @@ john id_rsa --wordlist=/usr/share/wordlists/rockyou.txt
 curl 127.0.0.1:<port>/<file name>
 ```
 
+## Python File Path Change
+
+```
+sudo PYTHONPATH=/home/waldo /opt/scripts/admin_tasks.sh 6
+```
+
 ## gzip base64 transfer
 
 We see its a gzip compressed file
