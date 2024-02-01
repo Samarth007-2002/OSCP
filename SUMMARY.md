@@ -22,5 +22,6 @@
     * [📩 Post Man](htb/linux/post-man.md)
     * [Traverxec](htb/linux/traverxec.md)
     * [😱 Open Admin](htb/linux/open-admin.md)
+    * [🧛 Admirer](htb/linux/admirer.md)
 * [Labs Learning](labs-learning.md)
 * [ERRORS](errors.md)
