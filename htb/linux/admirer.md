@@ -110,6 +110,8 @@ Let’s search for an exploit of 4.6.2
 
 ## Initial Foothold <a href="#eb12" id="eb12"></a>
 
+## Admirer exploit
+
 By simple Google search we come to know that _Adminer 4.6.2_ is vulnerable to Arbitrary file read. But the exploitation method is a little different. To do that we need to connect this Adminer to our own MYSQL server.
 
 Let’s setup our MySQL server first.
