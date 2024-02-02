@@ -4,7 +4,11 @@
 
 Use `-k` flag to `disable certificate checks`
 
+## Custom Wordlist Using cewl to create an wordlist by using words in an website
 
+```
+cewl -w output.txt http://10.10.10.191
+```
 
 ## Zone Transfer
 

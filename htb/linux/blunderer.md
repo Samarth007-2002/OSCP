@@ -58,7 +58,7 @@ But again, no result.\
 Now, I thought of creating a custom wordlist using **cewl** (you can install it using apt install):
 
 ```
-cewl -w output.txt 
+cewl -w output.txt http://10.10.10.191
 ```
 
 Then I ran the exploit again, but with this wordlist:
