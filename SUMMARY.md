@@ -23,5 +23,6 @@
     * [Traverxec](htb/linux/traverxec.md)
     * [😱 Open Admin](htb/linux/open-admin.md)
     * [🧛 Admirer](htb/linux/admirer.md)
+    * [Blunderer](htb/linux/blunderer.md)
 * [Labs Learning](labs-learning.md)
 * [ERRORS](errors.md)
