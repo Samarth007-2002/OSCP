@@ -25,5 +25,6 @@
     * [🧛 Admirer](htb/linux/admirer.md)
     * [Blunderer](htb/linux/blunderer.md)
     * [Tabby](htb/linux/tabby.md)
+  * [Doctor](htb/doctor.md)
 * [Labs Learning](labs-learning.md)
 * [ERRORS](errors.md)
